@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-	font-size: 2.4rem;
+	font-size: 2rem;
 	color: #f9faf8;
 	font-weight: bold;
 }
@@ -65,6 +65,10 @@ body {
 
 .right {
 	flex: 0 1 400px;
+}
+
+.right img {
+	border-radius: 1rem;
 }
 
 .welcome-title {
