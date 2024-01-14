@@ -8,7 +8,8 @@ body {
 	font-family: Roboto, sans-serif;
 }
 
-.header {
+.header,
+.footer {
 	background-color: #1f2937;
 	height: 7rem;
 	display: flex;
@@ -92,7 +93,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	margin: 4rem 1rem;
+	margin-top: 4rem;
 }
 
 .info {
@@ -101,12 +102,14 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 4rem;
 }
 
 .info h2 {
 	font-size: 3.6rem;
 	font-weight: bold;
 	margin-bottom: 3rem;
+	text-align: center;
 }
 
 .boxes {
@@ -129,4 +132,62 @@ body {
 	text-align: center;
 	display: inline-block;
 	font-size: 1.1rem;
+}
+
+.quote {
+	display: flex;
+	background-color: #e5e7eb;
+	width: 100%;
+	justify-content: center;
+}
+
+.quote-text {
+	flex: 0 1 800px;
+	font-size: 2rem;
+	margin: 5rem 1rem;
+	font-style: italic;
+}
+
+.quote-text footer {
+	text-align: end;
+	font-weight: bold;
+}
+
+.signup {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.signup-box {
+	background-color: #3882f6;
+	width: 1200px;
+	border-radius: 1rem;
+	margin: 6rem 0;
+	display: flex;
+	font-size: 1.6rem;
+	color: #e5e7eb;
+	justify-content: space-around;
+	padding: 3rem;
+	flex-wrap: wrap;
+}
+
+.signup-title {
+	font-weight: bold;
+}
+
+.signup-right {
+	display: flex;
+	height: 75px;
+}
+
+.signup-right .btn {
+	border: 2px solid white;
+}
+
+.footer {
+	min-height: 100px;
+	color: white;
+	font-size: 1rem;
 }
